@@ -3,8 +3,6 @@
 
 **Email:** seyfullahkorkmaz115@gmail.com  
 
-**Date:** Sunday 26th May, 2024  
-
 ## Abstract
 This report explores the optimal use of processes and threads in Python parallel programming. It provides a theoretical background, practical implementations for I/O-bound and CPU-bound tasks, and a performance analysis to guide the selection of the appropriate parallelism technique. Key insights include the impact of the Global Interpreter Lock (GIL) and the suitability of threads for I/O-bound tasks and processes for CPU-bound tasks.
 
