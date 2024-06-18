@@ -35,7 +35,7 @@ The GIL limits multi-threaded performance in CPU-bound tasks but is not a concer
 ## 3. Practical Implementation
 ### 3.1 Scenario 1: I/O-Bound Tasks
 #### Threading Script:
-\`\`\`python
+```python
 import threading
 import requests
 import time
@@ -55,7 +55,7 @@ for thread in threads:
     thread.join()
 end_time = time.time()
 print(f"Threading took {end_time - start_time} seconds")
-\`\`\`
+```
 
 #### Multiprocessing Script:
 \`\`\`python
