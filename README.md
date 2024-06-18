@@ -58,7 +58,7 @@ print(f"Threading took {end_time - start_time} seconds")
 ```
 
 #### Multiprocessing Script:
-\`\`\`python
+```python
 import multiprocessing
 import requests
 import time
@@ -104,10 +104,10 @@ for thread in threads:
     thread.join()
 end_time = time.time()
 print(f"Threading took {end_time - start_time} seconds")
-\`\`\`
+```
 
 #### Multiprocessing Script:
-\`\`\`python
+```python
 import multiprocessing
 import time
 
@@ -129,7 +129,7 @@ for process in processes:
     process.join()
 end_time = time.time()
 print(f"Multiprocessing took {end_time - start_time} seconds")
-\`\`\`
+```
 
 ## 4. Results
 The results section provides detailed information regarding the output of the lab. This section is often dominated by tables and screenshots. Ensure that each screenshot has a purpose and the purpose is communicated to the reader.
