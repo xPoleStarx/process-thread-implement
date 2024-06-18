@@ -1,6 +1,6 @@
 # Process and Thread Implementation
 **Author:** Seyfullah Korkmaz
-**Email:** $seyfullahkorkmaz115@gmail.com  
+**Email:** seyfullahkorkmaz115@gmail.com  
 **Date:** Sunday 26th May, 2024  
 
 ## Abstract
