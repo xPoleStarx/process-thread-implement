@@ -78,11 +78,11 @@ for process in processes:
     process.join()
 end_time = time.time()
 print(f"Multiprocessing took {end_time - start_time} seconds")
-\`\`\`
+```
 
 ### 3.2 Scenario 2: CPU-Bound Tasks
 #### Threading Script:
-\`\`\`python
+```python
 import threading
 import time
 
